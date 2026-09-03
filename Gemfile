@@ -1,19 +1,15 @@
 source "https://rubygems.org"
 
-gem "puma"
-gem "foreman"
-gem "sinatra", require: 'sinatra/base'
-gem "sinatra-contrib"
-gem "omniauth"
+gem "puma", "~> 6.0"
+gem "sinatra", "~> 3.1", require: 'sinatra/base'
+gem "sinatra-contrib", "~> 3.1"
+gem "omniauth", "~> 1.9"
 gem "omniauth-salesloft"
-gem 'securerandom'
-
+gem "securerandom"
 gem "httparty"
-
 gem "rspec"
 gem "dotenv"
 gem "byebug"
 gem "activesupport"
 gem "jose"
-
 gem "redis"
